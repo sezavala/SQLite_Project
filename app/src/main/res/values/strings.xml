@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="title">Otter Library System</string>
+    <string name="create_button">Create Account</string>
+    <string name="hold_button">Place hold</string>
+    <string name="system_button">Manage system</string>
+    <string name="account_title">Create a library account:</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="genre">Select Genre</string>
+    <string name="find_book_button">Find Books</string>
+    <string name="book">Choose one of the following books:</string>
+    <string name="checkout_button">Check Out</string>
+    <string name="signin_title">Sign into existing account:</string>
+    <string name="sign_in">Sign In</string>
+    <string name="confirmation">Does everything look correct?</string>
+    <string name="admin_title">Admin Sign In:</string>
+    <string name="missing_info">Make sure username and/or password is not blank. Try again</string>
+    <string name="username_dupe">Username is already in use. Try again</string>
+    <string name="account_created">"Account Created Successfully "</string>
+    <string name="error">Failed too many times</string>
+    <string name="invalid_info">Invalid User Information. Try again</string>
+    <string name="reservation_title">Reservation Number:</string>
+    <string name="username_title">Username:</string>
+    <string name="book_title">Book:</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="book_not_found">Error Book Not Found: Please Exit</string>
+    <string name="exit">Exit</string>
+    <string name="incorrect_info">Username or Password does not match. Try again</string>
+    <string name="logs">Logs:</string>
+    <string name="okay">Ok</string>
+    <string name="add_book">Do you need to add a book?</string>
+</resources>

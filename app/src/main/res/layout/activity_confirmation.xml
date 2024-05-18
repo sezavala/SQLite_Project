@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmation"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="40sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:text="@string/username_title">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/username">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:text="@string/book_title">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/book">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:text="@string/reservation_title">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/reservation_number">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:layout_margin="30dp"
+            android:text="@string/yes_button"
+            android:id="@+id/yes_button">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:layout_margin="30dp"
+            android:text="@string/no_button"
+            android:id="@+id/no_button">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
